@@ -1,0 +1,24 @@
+h1{
+    padding-left: 50px;
+    padding-top: 30px;
+
+}
+#dos{
+    padding-right: 10px;
+}
+
+/* aplicar en todos los lados del elemento */
+#bt1{
+    padding: 100px;
+}
+
+/* aplica para vertical y horizontal */
+#bt2{
+padding: 10px 15px;
+}
+
+/* aplica arrbia, derecha, abajo, izquierda */
+#bt3{
+    padding: 10px 20px 40px 80px;
+}
+

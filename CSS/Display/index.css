@@ -1,0 +1,15 @@
+/* "inline" se usa para poner los elementos seleccionados al lado de los otros elementos que lo rodean
+ */
+
+h1 {
+    background-color: saddlebrown;
+    border: 3px solid black;
+    display: inline;
+}
+/* se utiliza para separar un elemento de otro y utilizando un bloque completo */
+span.titulo {
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    display: block;
+}
+

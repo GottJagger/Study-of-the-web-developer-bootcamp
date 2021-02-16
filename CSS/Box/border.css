@@ -1,0 +1,22 @@
+
+#uno{
+    background-color: #264653;
+    border-width: 5px;
+    border-color:#e9c46a;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 5px 50px /100px;
+}
+#dos{
+    background-color: #2a9d8f;
+    border-width: 5px;
+    border-color:#f4a261;
+    border-style: dashed;
+    border-left-color: purple;
+    box-sizing: border-box;
+}
+#tres{
+    background-color: #e9c46a;
+    border: 10px solid rgb(10, 0, 153);
+    border-left-style: dotted;
+}

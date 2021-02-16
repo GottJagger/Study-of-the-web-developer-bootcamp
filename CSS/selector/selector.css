@@ -1,0 +1,71 @@
+/* *{
+    background-color: mediumslateblue;
+
+} */
+
+body {
+    background-color: #e5e5e5;
+}
+
+button {
+    background-color: #219ebc;
+    color: #000000;
+}
+
+h1, h3 {
+    color: #14213d;
+}
+
+/* este selector es para ID en el HTML */
+
+#btnVotar {
+    background-color: navy;
+    color: #fca311;
+}
+
+span {
+    color: #219ebc;
+}
+
+/* este selector es para las CLASS en el HTML */
+
+.tag {
+    background-color: #023047;
+}
+
+/* este selector es para elementos(etiquetas) dentro de otros elementos en HTML */
+
+li a {
+    color: red;
+}
+
+.post a {
+    background-color: salmon;
+}
+
+footer nav {
+    color: slategray;
+}
+
+/* este selector es para los elementos que se encuentra despues de otro en HTML */
+
+br+div {
+    color: coral;
+}
+
+/* este selector para los hijos directos del elemento (etiqueta) en HTML */
+
+footer>a {
+    color: tomato;
+    background-color: wheat;
+}
+
+/* este selector es para escoger un atributo de un elemento (etiqueta) en HTML */
+
+input[type="password"] {
+    color: #fca311;
+}
+
+#btnVotar:hover {
+    color: darkred;
+}

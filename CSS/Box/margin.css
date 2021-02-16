@@ -1,0 +1,19 @@
+/* se aplica para pergar el elemento al comienzo de la pagina */
+h1{
+    margin: 0;
+}
+/* se aplica margin la parte seleccionada "left" & "bottom" */
+#section1{
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+/* se selecciona todas las partes del margin del elemento "top, left, bottom,right" */
+#section2{
+    margin: 200px;
+}
+
+/* se especifica cada parte del margin "top","left", "bottom", "right" */
+#section3{
+    margin: 10px 20px 30px 40px;
+}

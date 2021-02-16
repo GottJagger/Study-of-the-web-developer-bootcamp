@@ -1,0 +1,7 @@
+h3::first-letter{
+    font-size: 40px;
+}
+
+p::first-line{
+    color: coral;
+}
