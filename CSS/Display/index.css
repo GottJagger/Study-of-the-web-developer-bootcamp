@@ -10,7 +10,7 @@ h1 {
     display: inline;
 }
 
-/* se utiliza para separar un elemento de otro y utilizando un bloque completo */
+/* "block" se utiliza para separar un elemento de otro y utilizando un bloque completo */
 
 span.titulo {
     background-color: cornflowerblue;
@@ -27,6 +27,7 @@ div{
     height: 200px;
     background-color: brown;
     border: 5px solid black;
+    /* los elementos se alinean y respetan los atributos  */
     display: inline-block;
     margin: 10px;
 }

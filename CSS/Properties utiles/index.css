@@ -1,0 +1,78 @@
+section{
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* se pueda usar con Hexa numbers agregando dos digitos mas que van de 0-9 a-f */
+}
+#opacidad {
+    width: 50%;
+    height: 50%;
+    background-color: yellowgreen;
+    opacity: 0.3;
+}
+.div1{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(255, 99, 71);
+    border: 2px solid black;
+}
+.div2{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(71, 255, 126);
+    border: 2px solid black;
+}
+.div3{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(83, 71, 255);
+    border: 2px solid black;
+}
+
+.div4{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(255, 99, 71);
+    border: 2px solid black;
+}
+.div5{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(71, 255, 126);
+    border: 2px solid black;
+}
+.div6{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(83, 71, 255);
+    border: 2px solid black;
+}
+#static{
+    background-color:transparent ;
+    
+}
+#static div{
+    display: inline-block;
+}
+
+#static #middle{
+    position: static;
+    top: 100px;
+}
+#relative{
+    background-color:transparent ;
+
+}
+#relative div{
+    display: inline-block;
+}
+
+#relative #middle{
+    position: static;
+    top: 100px;
+}
