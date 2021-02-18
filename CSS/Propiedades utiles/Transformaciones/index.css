@@ -1,0 +1,52 @@
+h1 {
+    background-color: #2a9d8f;
+    border: 5px solid #264653;
+    color: wheat;
+    padding: 0.7em;
+    width: 300px;
+    font-size: 1.8em;
+    /* este margin estipula la mitad de la pagina con AUTO */
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+h1:nth-of-type(2n) {
+    background-color: #e9c46a;
+}
+
+h1:nth-of-type(3n) {
+    background-color: #f4a261;
+}
+
+h1:nth-of-type(4n) {
+    background-color: #e76f51;
+}
+
+section:first-of-type h1:nth-of-type(1) {
+    /* transform-origin: top left; */
+    transform: rotate3d(1, 1, 1, 45deg);
+    /* transform: rotate3d(2, -1, -1, -0.2turn); */
+}
+
+section:first-of-type h1:nth-of-type(2) {
+    /* transform: scale(0.5);
+    transform: scale(2, 1); */
+    transform: scale3d(0.5, 1, 1.7);
+}
+
+section:first-of-type h1:nth-of-type(3) {
+    transform: translate(300px, 50px);
+}
+
+section:first-of-type h1:nth-of-type(4) {
+    transform: skew(30deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(1) {
+    transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
+}
+section:nth-of-type(2):hover{
+    transition:ease-in-out 1s;
+    transform: translate3d(12px, 50%, 3em);
+}

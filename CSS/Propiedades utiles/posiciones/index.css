@@ -1,0 +1,186 @@
+section{
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* se pueda usar con Hexa numbers agregando dos digitos mas que van de 0-9 a-f */
+}
+#opacidad {
+    width: 50%;
+    height: 50%;
+    background-color: yellowgreen;
+    opacity: 0.3;
+}
+.div1{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(255, 99, 71);
+    border: 2px solid black;
+}
+.div2{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(71, 255, 126);
+    border: 2px solid black;
+}
+.div3{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(83, 71, 255);
+    border: 2px solid black;
+}
+
+.div4{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(255, 99, 71);
+    border: 2px solid black;
+}
+.div5{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(71, 255, 126);
+    border: 2px solid black;
+}
+.div6{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(83, 71, 255);
+    border: 2px solid black;
+}
+
+.div7{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(255, 99, 71);
+    border: 2px solid black;
+}
+.div8{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(71, 255, 126);
+    border: 2px solid black;
+}
+.div9{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(83, 71, 255);
+    border: 2px solid black;
+}
+
+.div10{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 99, 71);
+    border: 2px solid black;
+}
+.div11{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(71, 255, 126);
+    border: 2px solid black;
+}
+.div12{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(83, 71, 255);
+    border: 2px solid black;
+}
+.div13{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 99, 71);
+    border: 2px solid black;
+}
+.div14{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(71, 255, 126);
+    border: 2px solid black;
+}
+.div15{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(83, 71, 255);
+    border: 2px solid black;
+}
+ /* la posicion statica */
+#static{
+    background-color:transparent ;
+    
+}
+#static div{
+    display: inline-block;
+}
+
+#static #middle{
+    position: static;
+    top: 100px;
+}
+
+/* la poscion relativa */
+#relative{
+    background-color:transparent ;
+
+}
+#relative div{
+    display: inline-block;
+}
+
+#relative #middle{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+/* posicion absoluta */
+
+#absolute{
+    background-color:transparent ;
+    position:relative;
+}
+#absolute div{
+    display: inline-block;
+}
+
+#absolute #middle{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+/* posicion fixed */
+
+#fixed{
+    background-color:transparent ;
+    
+}
+#fixed div{
+    display: inline-block;
+}
+
+#fixed #middle{
+    position:fixed;
+    top: 10px;
+    left: 10px;
+}
+
+/* posicion sticky */
+
+#sticky{
+    background-color:transparent ;
+    
+}
+#sticky div{
+    display: inline-block;
+}
+
+#sticky #middle{
+    position:-webkit-sticky;
+    position:sticky;
+    top: 20px;
+
+}

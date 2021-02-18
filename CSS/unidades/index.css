@@ -1,0 +1,44 @@
+html{
+    font-size: 20px;
+}
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+section {
+    background-color: cadetblue;
+    width: 600px;
+    height: 500px;
+}
+
+div {
+    background-color: crimson;
+    width: 25%;
+    height: 20%;
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2em;
+    /* cuando se usa un atributo como Margin, este toma el tamaño del la medicion anterior dentro del mismo elemento */
+    margin-left: 2em;
+}
+
+article {
+    font-size: 20px;
+}
+
+p {
+    font-size: 1em;
+}
+
+.rem li{
+    font-size: 2rem;
+}
+.rem ul{
+    font-size: 1.5rem;
+}

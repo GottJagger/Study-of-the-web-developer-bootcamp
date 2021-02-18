@@ -4,12 +4,30 @@
 h1 {
     background-color: saddlebrown;
     border: 3px solid black;
+    /* los elementos no cambian, dado que {display: inline} no respeta parametros como width & height */
+    width: 200px;
+    height: 500px;
     display: inline;
 }
-/* se utiliza para separar un elemento de otro y utilizando un bloque completo */
+
+/* "block" se utiliza para separar un elemento de otro y utilizando un bloque completo */
+
 span.titulo {
     background-color: cornflowerblue;
     border: 3px solid black;
+    /* los elementos si cambian, dado que {display: block} respeta dichos parametros como width & height */
+    width: 200px;
+    height: 100px;
     display: block;
+    margin: 5px;
 }
 
+div{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 5px solid black;
+    /* los elementos se alinean y respetan los atributos  */
+    display: inline-block;
+    margin: 10px;
+}
