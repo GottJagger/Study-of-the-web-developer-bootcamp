@@ -1,0 +1,16 @@
+body{
+    
+    font-family:  montserrat, sans-serif;
+}
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+h1,h2,h3{
+    font-weight: 600px;
+    font-family: 'Brygada 1918', serif;
+}
+h1{
+    font-size: 100px;
+    
+}
